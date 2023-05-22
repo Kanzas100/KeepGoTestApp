@@ -72,3 +72,10 @@ export function getGeneralApiProblem(response: ApiResponse<any>): GeneralApiProb
 
   return null
 }
+
+export enum STATUS_CODE {
+  Unauthorized = 401,
+  Forbidden = 403,
+  NotFound = 404,
+  InternalServerError = 500,
+}

@@ -9,6 +9,11 @@ import {
   SpaceGrotesk_600SemiBold as spaceGroteskSemiBold,
   SpaceGrotesk_700Bold as spaceGroteskBold,
 } from "@expo-google-fonts/space-grotesk"
+import {
+  Lato_300Light as latoLight,
+  Lato_400Regular as latoRegular,
+  Lato_700Bold as latoBold,
+} from "@expo-google-fonts/lato"
 
 export const customFontsToLoad = {
   spaceGroteskLight,
@@ -16,6 +21,9 @@ export const customFontsToLoad = {
   spaceGroteskMedium,
   spaceGroteskSemiBold,
   spaceGroteskBold,
+  latoLight,
+  latoRegular,
+  latoBold,
 }
 
 const fonts = {
@@ -26,6 +34,12 @@ const fonts = {
     medium: "spaceGroteskMedium",
     semiBold: "spaceGroteskSemiBold",
     bold: "spaceGroteskBold",
+  },
+  lato: {
+    // Cross-platform Google font.
+    light: "latoLight",
+    normal: "latoRegular",
+    bold: "latoBold",
   },
   helveticaNeue: {
     // iOS only font.
